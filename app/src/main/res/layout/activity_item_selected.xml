@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:id="@+id/item_selected_root"
+    tools:context="com.kghy1234gmail.speedquizchallenge.ItemSelectedActivity">
+
+    <TextView
+        android:id="@+id/item_selected_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/item_selected_btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="play"
+        android:onClick="clickPlay"/>
+
+    <Button
+        android:id="@+id/item_selected_btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/item_selected_btn_play"
+        android:text="cancel"
+        android:onClick="clickCancel"/>
+
+</RelativeLayout>

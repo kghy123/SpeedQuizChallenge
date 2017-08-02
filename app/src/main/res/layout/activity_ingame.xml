@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kghy1234gmail.speedquizchallenge.IngameActivity">
+
+    <com.kghy1234gmail.speedquizchallenge.RecordView
+        android:id="@+id/ingame_recordview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/ingame_tv_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="화면을 조정해 주세요"
+        android:textSize="48sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/ingame_tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="문제"
+        android:textSize="68sp"
+        android:layout_centerInParent="true"
+        android:textColor="#000000"/>
+
+</RelativeLayout>

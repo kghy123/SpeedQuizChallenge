@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="com.kghy1234gmail.speedquizchallenge.GameEndActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/game_end_recycler"
+        android:layout_width="240dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="12dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="미리보기"
+        android:onClick="clickPreview"/>
+
+    <Button
+        android:id="@+id/game_end_btn_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="clickRetry"
+        android:text="뒤로가기"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/game_end_btn_retry"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:text="동영상 저장하기"
+        android:onClick="clickSave"/>
+
+
+</RelativeLayout>
