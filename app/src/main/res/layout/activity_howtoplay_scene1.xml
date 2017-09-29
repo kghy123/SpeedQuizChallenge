@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="450dp">
 
     <ImageView
         android:id="@+id/howtoplay_img1"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:src="@drawable/test1"
+        android:layout_height="250dp"
+        android:src="@drawable/set"
         android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/howtoplay_img1"
+        android:text="화면을 90도로 맞추면 게임이 시작됩니다!"
+        android:textSize="16sp"
+        android:gravity="center"/>
 
 
 </RelativeLayout>

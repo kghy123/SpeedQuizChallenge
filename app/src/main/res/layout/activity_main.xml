@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.kghy1234gmail.speedquizchallenge.MainActivity">
 
     <ImageView
@@ -11,13 +12,27 @@
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:src="@drawable/howtoplay"
         android:onClick="clickHowtoplay"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ad_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+
+    </com.google.android.gms.ads.AdView>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@id/ad_view"
         android:padding="8dp"
         android:layout_below="@id/btn_main_howtoplay">
 

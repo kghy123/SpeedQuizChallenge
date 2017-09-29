@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "701919875404",
+    "firebase_url": "https://speedquizchallenge.firebaseio.com",
+    "project_id": "speedquizchallenge",
+    "storage_bucket": "speedquizchallenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701919875404:android:05e943820f97b61e",
+        "android_client_info": {
+          "package_name": "com.kghy1234gmail.speedquizchallenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701919875404-2fl7altl3541kr95jgbsebic1us8ilni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kghy1234gmail.speedquizchallenge",
+            "certificate_hash": "3e54c0765bc234cce876d8895944245cbec4705a"
+          }
+        },
+        {
+          "client_id": "701919875404-5pqha4eqpf38skn5r04na5570cakh792.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8ar99pU0dNrmTIxIcu9YD4F04qkT8n4U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701919875404-5pqha4eqpf38skn5r04na5570cakh792.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

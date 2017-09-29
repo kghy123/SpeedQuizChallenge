@@ -67,7 +67,7 @@ public class MainRecyclerAdapter extends RecyclerView.Adapter {
 
     }
 
-
+    //asdasd
 
     @Override
     public int getItemCount() {

@@ -260,7 +260,7 @@ public class IngameActivity extends AppCompatActivity implements SensorEventList
 
     class GameThread extends Thread{
 
-        int s = 5;
+        int s = 45;
         int ns = 0;
 
         boolean isRun = true;
